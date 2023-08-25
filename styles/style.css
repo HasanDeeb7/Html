@@ -1,0 +1,57 @@
+*{
+    font-size: 20px;
+    color: black;
+}
+li{
+    list-style-type: none;
+}
+
+#site-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    background-image: url(../assets/scattered-forcefields.svg);
+}
+
+#header-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px black;
+    border-radius: 30px;
+    margin: 5rem;
+    width: 15rem;
+    background-color: white;
+}
+#menu-container{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    gap: 10px;
+    
+}
+#menu-container > a{
+    text-decoration: none;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+#footer-menu_container{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding: 0;
+    
+}
+footer > a{
+    margin: 3rem 0;
+    text-decoration: none;
+}
+#footer-menu_container > li > a{
+    text-decoration: none;
+}
