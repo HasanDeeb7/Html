@@ -3,25 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style-3.css">
+
     <title>Html3</title>
 </head>
 <body>
-    <header>
-        <span id="title">Coder Hub</span>
-        <span id="slogan">Stop Planning, Start Doing</span>
+    <main role="main" id="site-wrapper">
+
+        
+        <header>
+            <section id="header-txt">
+                <h2 id="title">Coder Hub</h2>
+                <h3 id="slogan">Stop Planning, Start Doing</h3>
+            </section>
+            
+        </header>
         <nav id="navbar">
-            <a href="#">Home</a>
-            <a href="#">Contact</a>
-            <a href="#">Page 1</a>
-            <a href="#">Page 2</a>
-            <a href="#">Page 3</a>
-            <a href="#">Page 4</a>
-        </nav>
-    </header>
-    <section id="side-nav_container">
+            <span class="nav-item_container"><a href="#">Home</a></span>
+            <span class="nav-item_container"><a href="#">Contact</a></span>
+            <span class="nav-item_container"><a href="#">New Page 1</a></span>
+        <span class="nav-item_container"><a href="#">New Page 2</a></span>
+        <span class="nav-item_container"><a href="#">New Page 3</a></span>
+        <span class="nav-item_container"><a href="#">New Page 4</a></span>
+    </nav>
         <section id="side-nav_menu">
             <h3>Main Menu</h3>
-            <ul id="side_nav">
+            <ul id="side-nav">
                 <li>Menu item 1</li>
                 <li>Menu item 2</li>
                 <li>Menu item 3</li>
@@ -38,22 +45,23 @@
             <span>Block content</span>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, suscipit repellendus! Perspiciatis tenetur nostrum accusamus aperiam libero vitae nihil quia, laudantium rerum voluptatibus, distinctio recusandae suscipit nemo consequuntur! Excepturi, esse.</p>
         </section>
-    </section>
-    <main>
-        <section id="main_heading">
+    
+    
+        <section id="gallery-container">
             <h3>Gallery</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non repellendus nesciunt ipsum mollitia dolorum provident assumenda ratione laborum. Soluta libero recusandae similique tempore molestias. Quis vero ratione error optio aspernatur!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non repellendus nesciunt ipsum mollitia dolorum provident assumenda ratione laborum. Soluta libero recusandae similique tempore molestias. Quis vero ratione error optio aspernatur!Lorem ipsum dolor sit amet consectetur adipisicing elit. Non repellendus nesciunt ipsum mollitia dolorum provident assumenda ratione laborum. Soluta libero recusandae similique tempore molestias. Quis vero ratione error optio aspernatur!Lorem ipsum dolor sit amet consectetur adipisicing elit. Non repellendus nesciunt ipsum mollitia dolorum provident assumenda ratione laborum. Soluta libero recusandae similique tempore molestias. Quis vero ratione error optio aspernatur!</p>
         </section>
-        <section id="subs_container">
+        <section id="subs-container">
             <h3 id="subs">Subscription</h3>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis eligendi corrupti earum, cum neque ea blanditiis ut explicabo facilis fugit, cumque eius ex commodi minima labore tempora reiciendis impedit delectus?</p>
             <section class="read-btn">Read More</section>
         </section>
-        <section id="others_container">
-            <p id="others">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, aliquam ipsam at odit non sint voluptates! Ratione omnis, aliquid enim, beatae molestiae corporis iusto hic minus cumque eveniet sed quibusdam?</p>
+        <section id="others-container">
+            <h3>Other Services</h3>
+            <p id="others">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis eligendi corrupti earum, cum neque ea blanditiis ut explicabo facilis fugit, cumque eius ex commodi minima labore tempora reiciendis impedit delectus?</p>
             <section class="read-btn">Read More</section>
         </section>
-    </main>
+   
     <footer>
         <form id="contact-form">
             <fieldset>
@@ -61,18 +69,19 @@
                 <input type="text" required placeholder="Full Name">
                 <input type="email" required placeholder="Email">
                 <textarea name="message" id="" cols="30" rows="10" placeholder="Tell us your thoughts..."></textarea>
-                <label for="complaint">Complaint</label>
-                <input type="radio" name="type" value="complaint" id="complaint">
-                <label for="suggestion">Suggestion</label>
-                <input type="radio" name="type" value="suggestion" id="suggestion">
-
+                <label for="complaint">Complaint
+                <input type="radio" name="type" value="complaint" id="complaint"></label>
+                <label for="suggestion">Suggestion
+                <input type="radio" name="type" value="suggestion" id="suggestion"></label>
+                
             </fieldset>
-
+            
         </form>    
         
         
         
         <span id="copyright">Copyright 2014</span>
     </footer>
+</main>
 </body>
 </html>
